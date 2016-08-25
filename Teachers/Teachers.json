@@ -1,0 +1,24 @@
+{
+  "Teacher" : [
+    {
+      "name" : "Ilona",
+      "subject" : "LT",
+      "available" : [1, 2, 4, 5]
+    },
+    {
+      "name" : "Barbarosa",
+      "subject" : "LT",
+      "available" : [1, 2, 3, 4]
+    },
+    {
+      "name" : "Mauduliene",
+      "subject" : "LT",
+      "available" : [5]
+    },
+    {
+      "name" : "Parkurauskiene",
+      "subject" : "LT",
+      "available" : [1, 4, 5]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "Students" :[
+    {
+      "class" : 1,
+      "name" : "Something1",
+      "subjects" : ["LT","MAT","GEF"]
+    },
+    {
+      "class" : 1,
+      "name": "Something2",
+      "subjects" : ["LT","MAT","GEF"]
+    },
+    {
+      "class" : 2,
+      "name" : "Something3",
+      "subjects" : ["LT","MAT","GEF"]
+    },
+    {
+      "class" : 2,
+      "name" : "Something4",
+      "subjects" : ["LT","MAT","GEF"]
+    },
+    {
+      "class" : 3,
+      "name" : "Something5",
+      "subjects" : ["LTb","LTa","MATa","MATb","GEFa"]
+    },
+    {
+      "class" : 3,
+      "name" : "Something6",
+      "subjects" : ["LTb","LTa","MATa","MATb","GEFa"]
+    },
+    {
+      "class" : 4,
+      "name" : "Something7",
+      "subjects" : ["LTb","LTa","MATa","MATb","GEFa"]
+    },
+    {
+      "class" : 4,
+      "name" : "Something8",
+      "subjects" : ["LTb","LTa","MATa","MATb","GEFa"]
+    }
+
+  ]
+}

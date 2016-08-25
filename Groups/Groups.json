@@ -1,0 +1,97 @@
+{
+  "Class":
+  {
+    "1":
+    [
+      {
+        "ID" : "A",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "B",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ],
+    "2":
+    [
+      {
+        "ID" : "A",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "B",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ],
+    "3":
+    [
+      {
+        "ID" : "A",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "B",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ],
+    "4":
+    [
+      {
+        "ID" : "A",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "B",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ]
+  },
+
+  "Group" :
+  {
+    "1":
+    [
+      {
+        "ID" : "1g",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "2g",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ],
+    "2":
+    [
+      {
+        "ID" : "1g",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "2g",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ],
+    "3":
+    [
+      {
+        "ID" : "1g",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "2g",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ],
+    "4":
+    [
+      {
+        "ID" : "1g",
+        "students" : ["Ainoras Zukauskas", "Edvinas Senda"]
+      },
+      {
+        "ID" : "g",
+        "students" : ["Domantas Mauruca", "Lukas Glavinskas"]
+      }
+    ]
+  }
+}

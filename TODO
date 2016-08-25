@@ -1,0 +1,43 @@
+V - Done
+V? - Might be subject to change
+WIP - in progress
+DELAY - postponed
+X - Not done
+? - Not sure if needed
+
+TODO: Database (GET):
+    TODO: Create a way to get subject name (V)
+    TODO: Create a way to get subject priority (V)
+    TODO: Create a way to get Hours for subject && class group (V)
+    TODO: Create a way to retrieve subject list of students (V)
+    TODO: Create counter for students who chose certain subject (V)
+    TODO: Create a way to retrieve a list for certain student (?)
+    TODO: Create a way to retrieve how many teachers are available each day for a certain subject (V)
+    TODO: Create a way to retrieve available teacher list for subject (Only checks default limitations) (V)
+    TODO: Create a way to retrieve the min/max of students for a subject (V)
+    TODO: Create a way to retrieve the min/max hours per student (def 28 to 35) (V)
+
+TODO: Database (SAVE): (DELAY)
+    TODO: Create a way to change "Template.json" (V):
+        TODO: Add/Remove subjects (V)
+        TODO: Change hours for class for subject (V)
+        TODO: Change priority levels for subject (V)
+
+    TODO: Create a way to change "Students.json" (DELAY)
+        TODO: Delete/Add Students (V)
+        TODO: Delete/Add subjects from list (X)
+        TODO: Change class/name (X)
+    TODO: Create a way to change "Teachers.json" (DELAY)
+
+    TODO: Create a way to change "LessonLimit.json" (DELAY)
+
+TODO: Algorithm (COMPUTING): (WIP)
+    TODO: Structures: (V?)
+        TODO: "Table.json" structure (V?)
+        TODO: "Groups.json" structure (V?)
+
+    TODO: Refine: (X)
+        TODO: Min groups for subject (X)
+        TODO: Max groups for subject (X)
+
+    TODO: <...>

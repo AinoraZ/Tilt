@@ -1,0 +1,772 @@
+{
+"Subject": [
+    {
+      "ID" : "LT",
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : "MAT",
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : "GEF",
+      "Priority" : "1/2",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 4,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 5,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 6,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 7,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 8,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 9,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 10,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 11,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 12,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 13,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 14,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 15,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 16,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 17,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 18,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 19,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 20,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 21,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 22,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 23,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 24,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 25,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 26,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 27,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 28,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 29,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 30,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 31,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    },
+    {
+      "ID" : 32,
+      "Priority" : "Must",
+      "Class": {
+        "1" : { "Hours" : 5 },
+        "2" : { "Hours" : 4 },
+        "3" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 4
+          }
+        },
+        "4" : {
+          "A" : {
+            "Hours" : 6
+          },
+          "B" : {
+            "Hours" : 5
+          }
+        }
+      }
+    }
+  ]
+}

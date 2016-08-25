@@ -1,0 +1,25 @@
+{
+
+  "min" : 28,
+  "max" : 35,
+  "weekly" : 8,
+
+  "subjectSpecific" : [
+    {
+      "ID" : "LT",
+      "min" : 15,
+      "max" : 25
+    },
+    {
+      "ID" : "MAT",
+      "min" : 15,
+      "max" : 25
+    },
+    {
+      "ID" : "GEF",
+      "min" : 15,
+      "max" : 30
+    }
+  ]
+
+}
