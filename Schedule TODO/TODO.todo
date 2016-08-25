@@ -1,0 +1,39 @@
+Algorithm:
+	Database (GET):
+		✔ Create a way to get subject name  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		✔ Create a way to get subject priority  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		✔ Create a way to get Hours for subject && class group  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		✔ Create a way to retrieve subject list of students  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		✔ Create counter for students who chose certain subject  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		☐ Create a way to retrieve a list for certain student 
+		✔ Create a way to retrieve how many teachers are available each day for a certain subject  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+	 	✔ Create a way to retrieve available teacher list for subject (Only checks default limitations)  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		✔ Create a way to retrieve the min/max of students for a subject  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+		✔ Create a way to retrieve the min/max hours per student (def 28 to 35)  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
+
+Database (SAVE):
+	Create a way to change "Template.json":
+		✔ Add/Remove subjects  / Create a way to change "Template.json") @done(2015-12-30 21:31) @project(Database (SAVE) / Create a way to change "Template.json")
+		✔ Change hours for class for subject @done(2015-12-30 21:31) @project(Database (SAVE) / Create a way to change "Template.json")
+		✔ Change priority levels for subject  @done(2015-12-30 21:31) @project(Database (SAVE) / Create a way to change "Template.json")
+
+	Create a way to change "Students.json":
+		☐ Delete/Add Students 
+		☐ Delete/Add subjects from list 
+		☐ Change class/name 
+	
+	 Create a way to change "Teachers.json":
+
+	 Create a way to change "LessonLimit.json":
+
+	Algorithm (COMPUTING):
+		Structures:
+			✔ "Table.json" structure  @done(2015-12-30 21:31) @project(Database (SAVE) / Algorithm (COMPUTING) / Structures)
+			✔ "Groups.json" structure  @done(2015-12-30 21:31) @project(Database (SAVE) / Algorithm (COMPUTING) / Structures)
+
+	Refine:
+			☐ Min groups for subject
+			☐ Max groups for subject
+
+TODO: <...> 
+

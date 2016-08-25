@@ -6,12 +6,12 @@ class SubjectSave(object):
 
     def __init__(self, key, priority, classJson):
         # -------#Limits get#-------#
-        with open(os.getcwd() + "/Limits/LessonLimit.json") as limit_file:
+        with open(os.getcwd() + "/json/Limits/LessonLimit.json") as limit_file:
             self.limitFile = json.load(limit_file)
         # -------#Limits get#-------#
 
         # -------#Teacher get#-------#
-        with open(os.getcwd() + "/Teachers/Teachers.json") as teacher_file:
+        with open(os.getcwd() + "/json/Teachers/Teachers.json") as teacher_file:
             self.teacher = json.load(teacher_file)
         self.teachers = []
         # -------#Teacher get#-------#
@@ -78,21 +78,15 @@ class SubjectSave(object):
 class GetSubject(object):
     def __init__(self):
         #-------#Subject get#-------#
-        with open(os.getcwd() + "/Subjects/Template.json") as subject_file:
+        with open(os.getcwd() + "/json/Subjects/Template.json") as subject_file:
             self.subject = json.load(subject_file)
         #-------#Subject get#-------#
 
-    def Name(self):                                          #Sees subject names
+    def Names(self):                                          #Returns all subject name list
         self.list = []
         for x in range(self.subject["Subject"].__len__()):
             self.list.append(self.subject["Subject"][x]["ID"])
         return self.list                                            #Returns list of subject ID's
-
-    def Priority(self, ID):                                  #Sees the subject of choice priority level["Must", "1/2", "1/3", "Optional"]\
-                                                                    # function(subject of choice (ID))
-        for x in range(self.subject["Subject"].__len__()):
-            if ID == self.subject["Subject"][x]["ID"]:
-                return self.subject["Subject"][x]["Priority"]       #Returns priority level
 
     def All(self):
         self.subjectArray = []
@@ -113,7 +107,7 @@ class GetStudent(object):
     def __init__(self, subject = -1, classN = -1):
         self.students = []
         #-------#Students get#-------#
-        with open(os.getcwd() + "/Students/Students.json") as student_file:
+        with open(os.getcwd() + "/json/Students/Students.json") as student_file:
             self.student = json.load(student_file)
         #-------#Students get#-------#
 
@@ -141,7 +135,7 @@ class TeacherGet(object):
     def __init__(self):
         self.teacherArray = []
         #-------#Teacher get#-------#
-        with open(os.getcwd() + "/Teachers/Teachers.json") as teacher_file:
+        with open(os.getcwd() + "/json/Teachers/Teachers.json") as teacher_file:
             self.teacher = json.load(teacher_file)
         #-------#Teacher get#-------#
 
@@ -156,7 +150,7 @@ class LimitGet():
 
     def __init__(self):
         #-------#Limits get#-------#
-        with open(os.getcwd() + "/Limits/LessonLimit.json") as limit_file:
+        with open(os.getcwd() + "/json/Limits/LessonLimit.json") as limit_file:
             self.limitFile = json.load(limit_file)
         #-------#Limits get#-------#
 

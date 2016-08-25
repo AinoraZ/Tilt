@@ -5,9 +5,9 @@ import os
 class SubjectSave (object):
 
     def __init__(self):
-        with open(os.getcwd() + "/Subjects/Template.json") as subject_file:
+        with open(os.getcwd() + "/json/Subjects/Template.json") as subject_file:
             self.subject = json.load(subject_file)
-        with open(os.getcwd() + "/Subjects/Template.json") as subject_file2:
+        with open(os.getcwd() + "/json/Subjects/Template.json") as subject_file2:
             self.subjectCopy = json.load(subject_file2)
 
     def SubjectAdd(self, ID, Priority, First, Two, ThreeA, ThreeB, FourA, FourB):
@@ -30,7 +30,7 @@ class SubjectSave (object):
         self.subjectCopy["Subject"].append(self.template)
         self.subjectCopy["Subject"][0] = self.templateCopy
 
-        with open(os.getcwd() + "/Subjects/Template.json", 'w') as json_data:
+        with open(os.getcwd() + "/json/Subjects/Template.json", 'w') as json_data:
             json_data.write(
                 json.dumps(self.subjectCopy, sort_keys = True, indent = 2, separators = (',', ': '))
             )
@@ -49,7 +49,7 @@ class SubjectSave (object):
             print("No such element, perhaps it doesn't exists? (ERROR SubjectRemove)")
             return -1
 
-        with open(os.getcwd() + "/Subjects/Template.json", 'w') as json_data:
+        with open(os.getcwd() + "/json/Subjects/Template.json", 'w') as json_data:
             json_data.write(
                 json.dumps(self.subject,sort_keys = True, indent = 2, separators = (',', ': '))
             )
@@ -84,7 +84,7 @@ class SubjectSave (object):
             print("Error, maybe given subject doesn't exist? (ERROR: HourChange)")
             return -1
 
-        with open(os.getcwd() + "/Subjects/Template.json", 'w') as json_data:
+        with open(os.getcwd() + "/json/Subjects/Template.json", 'w') as json_data:
             json_data.write(
                 json.dumps(self.subjectCopy, sort_keys = True, indent = 2, separators = (',', ': '))
             )
@@ -96,7 +96,7 @@ class SubjectSave (object):
 class StudentSave(object):
 
     def __init__(self):
-        with open(os.getcwd() + "/Students/Students.json") as student_file:
+        with open(os.getcwd() + "/json/Students/Students.json") as student_file:
             self.student = json.load(student_file)
         pass
 
@@ -113,7 +113,7 @@ class StudentSave(object):
         self.template["subjects"] = subjectList
 
         self.student["Students"].append(self.template)
-        with open(os.getcwd() + "/Students/Students.json", 'w') as json_data:
+        with open(os.getcwd() + "/json/Students/Students.json", 'w') as json_data:
             json_data.write(
                 json.dumps(self.student, sort_keys = True, indent = 2, separators = (',', ': '))
             )
@@ -121,7 +121,7 @@ class StudentSave(object):
     def StudentRemove(self, number):
         del self.student["Students"][number]
 
-        with open(os.getcwd() + "/Students/Students.json", 'w') as json_data:
+        with open(os.getcwd() + "/json/Students/Students.json", 'w') as json_data:
             json_data.write(
                 json.dumps(self.student, sort_keys = True, indent = 2, separators = (',', ': '))
             )
