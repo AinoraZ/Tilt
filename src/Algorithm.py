@@ -2,6 +2,8 @@ import Open
 import json
 import copy
 import os
+from progress.bar import Bar
+import numpy as np
 os.chdir('..')
 
 class Algorithm(object):
@@ -52,34 +54,76 @@ class GroupSize(object):
 
     def SPSCreate(self): #Goes through every Student, and places their names in appropriate subjects
                                          #Ex: LT has ["Ainoras Zukauskas", "Domantas Mauruca", ...]
-
-        for x in range(Open.GetStudent().All().__len__()):
-            for z in range(Open.GetStudent().All()[x].subjects.__len__()):
+        students = Open.GetStudent().All()
+        bar = Bar('Creating SPS Json', max=students.__len__())
+        for x in range(students.__len__()):
+            for z in range(students[x].subjects.__len__()):
                 for i in range(self.per["Per"].__len__()):
-                    if self.per["Per"][i]["ID"] == Open.GetStudent().All()[x].subjects[z]:
-                        if Open.GetStudent().All()[x].classN == 1:
-                            self.per["Per"][i]["1"].append(Open.GetStudent().All()[x].name)
-                        elif Open.GetStudent().All()[x].classN == 2:
-                            self.per["Per"][i]["2"].append(Open.GetStudent().All()[x].name)
-                    elif self.per["Per"][i]["ID"] + "a" == Open.GetStudent().All()[x].subjects[z]:
-                        if Open.GetStudent().All()[x].classN == 3:
-                            self.per["Per"][i]["3"]["A"].append(Open.GetStudent().All()[x].name)
-                        elif Open.GetStudent().All()[x].classN == 4:
-                            self.per["Per"][i]["4"]["A"].append(Open.GetStudent().All()[x].name)
-                    elif self.per["Per"][i]["ID"] + "b" == Open.GetStudent().All()[x].subjects[z]:
-                        if Open.GetStudent().All()[x].classN == 3:
-                            self.per["Per"][i]["3"]["B"].append(Open.GetStudent().All()[x].name)
-                        elif Open.GetStudent().All()[x].classN == 4:
-                            self.per["Per"][i]["4"]["B"].append(Open.GetStudent().All()[x].name)
+                    if self.per["Per"][i]["ID"] == students[x].subjects[z]:
+                        if students[x].classN == 1:
+                            self.per["Per"][i]["1"].append(students[x].name)
+                        elif students[x].classN == 2:
+                            self.per["Per"][i]["2"].append(students[x].name)
+                    elif self.per["Per"][i]["ID"] + "a" == students[x].subjects[z]:
+                        if students[x].classN == 3:
+                            self.per["Per"][i]["3"]["A"].append(students[x].name)
+                        elif students[x].classN == 4:
+                            self.per["Per"][i]["4"]["A"].append(students[x].name)
+                    elif self.per["Per"][i]["ID"] + "b" == students[x].subjects[z]:
+                        if students[x].classN == 3:
+                            self.per["Per"][i]["3"]["B"].append(students[x].name)
+                        elif students[x].classN == 4:
+                            self.per["Per"][i]["4"]["B"].append(students[x].name)
+            bar.next()
         with open(os.getcwd() + "/json/StudentsPerSubject/StudentsPerSubject.json", 'w') as json_data:
             json_data.write(
-                json.dumps(self.per, sort_keys = True, indent = 4, separators = (',', ': '))
+                json.dumps(self.per, sort_keys = True, indent = 2, separators = (',', ': '))
+            )
+        bar.finish()
+
+    def RandomizeClass(self):
+        studentSize = Open.GetStudent().AllClass(3).__len__()
+        devider = 30
+        classAmount = studentSize / devider
+        if not classAmount.is_integer():
+            classAmount += 1
+        classAmount = int(classAmount)
+        filler = int(studentSize / classAmount)
+        if classAmount > 1:
+            classArray = np.full(classAmount, filler, dtype=int)
+            difference = studentSize - filler * classAmount
+            i = 0
+            while difference != 0:
+                classArray[i] += 1
+                i += 1
+                if i == classAmount:
+                    i = 0
+                difference -= 1
+        else:
+            classArray = [studentSize]
+        return list(classArray)
+
+    def SaveRandClass(self):
+        with open(os.getcwd() + "/json/Groups/Groups.json") as groups:
+            self.groups = json.load(groups)
+        classes = self.RandomizeClass()
+        until = 97 + len(self.classes)
+        alphabet = list(map(chr, range(97, until)))
+        for i, alpha in enumerate(alphabet):
+            print(alpha, i)
+
+        with open(os.getcwd() + "/json/Groups/Groups.json", 'w') as json_data:
+            json_data.write(
+                json.dumps(self.per, sort_keys = True, indent = 2, separators = (',', ': '))
             )
 
-    def GroupNumbers(self):
-        pass
 
 
+print("Starting")
 GroupSize().PerReset()
+print("ResetDone")
 GroupSize().SPSTemplate()
+print("Templating Done")
+print(Open.SPSGet(3).All()[0].groups)
+GroupSize().SaveRandClass()
 

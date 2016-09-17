@@ -1,481 +1,589 @@
 {
-    "Per": [
-        {
-            "1": [
-                "Something2"
-            ],
-            "2": [
-                "Something3",
-                "Something4"
-            ],
-            "3": {
-                "A": [
-                    "Something5",
-                    "Something6",
-                    "Ainoras Zukauskas"
-                ],
-                "B": [
-                    "Something5",
-                    "Something6"
-                ]
-            },
-            "4": {
-                "A": [
-                    "Something7",
-                    "Something8"
-                ],
-                "B": [
-                    "Something7",
-                    "Something8"
-                ]
-            },
-            "ID": "LT"
-        },
-        {
-            "1": [
-                "Something2"
-            ],
-            "2": [
-                "Something3",
-                "Something4"
-            ],
-            "3": {
-                "A": [
-                    "Something5",
-                    "Something6",
-                    "Ainoras Zukauskas"
-                ],
-                "B": [
-                    "Something5",
-                    "Something6"
-                ]
-            },
-            "4": {
-                "A": [
-                    "Something7",
-                    "Something8"
-                ],
-                "B": [
-                    "Something7",
-                    "Something8"
-                ]
-            },
-            "ID": "MAT"
-        },
-        {
-            "1": [
-                "Something2"
-            ],
-            "2": [
-                "Something3",
-                "Something4"
-            ],
-            "3": {
-                "A": [
-                    "Something5",
-                    "Something6"
-                ],
-                "B": []
-            },
-            "4": {
-                "A": [
-                    "Something7",
-                    "Something8"
-                ],
-                "B": []
-            },
-            "ID": "GEF"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": [
-                    "Ainoras Zukauskas"
-                ]
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "MUZ"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [
-                    "Ainoras Zukauskas"
-                ],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "IST"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [
-                    "Ainoras Zukauskas"
-                ],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "CHE"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [
-                    "Ainoras Zukauskas"
-                ],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "PROG"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [
-                    "Ainoras Zukauskas"
-                ],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "FIZ"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [
-                    "Ainoras Zukauskas"
-                ],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "EN"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": [
-                    "Ainoras Zukauskas"
-                ]
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "KUN"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "11"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "RUS"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "ETIK"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "BIO"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "FR"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "TIKI"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "PIL"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "SOK"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "DAIL"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "TECH"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "SAUG"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "22"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "23"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "24"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "25"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "26"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "27"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "28"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "29"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "30"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "31"
-        },
-        {
-            "1": [],
-            "2": [],
-            "3": {
-                "A": [],
-                "B": []
-            },
-            "4": {
-                "A": [],
-                "B": []
-            },
-            "ID": "32"
-        }
-    ]
+  "Per": [
+    {
+      "1": [
+        "Something2"
+      ],
+      "2": [
+        "Something3",
+        "Something4"
+      ],
+      "3": {
+        "A": [
+          "Something5",
+          "Something6",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": [
+          "Something5",
+          "Something6"
+        ]
+      },
+      "4": {
+        "A": [
+          "Something7",
+          "Something8"
+        ],
+        "B": [
+          "Something7",
+          "Something8"
+        ]
+      },
+      "ID": "LT"
+    },
+    {
+      "1": [
+        "Something2"
+      ],
+      "2": [
+        "Something3",
+        "Something4"
+      ],
+      "3": {
+        "A": [
+          "Something5",
+          "Something6",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": [
+          "Something5",
+          "Something6"
+        ]
+      },
+      "4": {
+        "A": [
+          "Something7",
+          "Something8"
+        ],
+        "B": [
+          "Something7",
+          "Something8"
+        ]
+      },
+      "ID": "MAT"
+    },
+    {
+      "1": [
+        "Something2"
+      ],
+      "2": [
+        "Something3",
+        "Something4"
+      ],
+      "3": {
+        "A": [
+          "Something5",
+          "Something6"
+        ],
+        "B": []
+      },
+      "4": {
+        "A": [
+          "Something7",
+          "Something8"
+        ],
+        "B": []
+      },
+      "ID": "GEF"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ]
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "MUZ"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "IST"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "CHE"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "PROG"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "FIZ"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "EN"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": [
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ]
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "KUN"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "11"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "RUS"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "ETIK"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "BIO"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "FR"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "TIKI"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "PIL"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "SOK"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "DAIL"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "TECH"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "SAUG"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "22"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "23"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "24"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "25"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "26"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "27"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "28"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "29"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "30"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "31"
+    },
+    {
+      "1": [],
+      "2": [],
+      "3": {
+        "A": [],
+        "B": []
+      },
+      "4": {
+        "A": [],
+        "B": []
+      },
+      "ID": "32"
+    }
+  ]
 }

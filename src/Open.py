@@ -89,17 +89,18 @@ class GetSubject(object):
         return self.list                                            #Returns list of subject ID's
 
     def All(self):
-        self.subjectArray = []
+        subjectArray = []
         for x in range(self.subject["Subject"].__len__()):
-            self.subjectArray.append(SubjectSave(self.subject["Subject"][x]["ID"], self.subject["Subject"][x]["Priority"], self.subject["Subject"][x]["Class"]))
-        return self.subjectArray
+            subjectArray.append(SubjectSave(self.subject["Subject"][x]["ID"], self.subject["Subject"][x]["Priority"], self.subject["Subject"][x]["Class"]))
+        return subjectArray
 
 
 class StudentSave(object):
-    def __init__(self, name, subjects, classN):
+    def __init__(self, name, subjects, classN, letter):
         self.name = name
         self.subjects = subjects
         self.classN = classN
+        self.letter = letter
 
 
 
@@ -119,8 +120,15 @@ class GetStudent(object):
             self.tempName = self.student["Students"][x]["name"]
             for z in range(self.student["Students"][x]["subjects"].__len__()):
                 self.tempSubject.append(self.student["Students"][x]["subjects"][z])
-            self.students.append(StudentSave(self.tempName, self.tempSubject, self.student["Students"][x]["class"]))
+            self.students.append(StudentSave(self.tempName, self.tempSubject, self.student["Students"][x]["class"], self.student["Students"][x]["letter"]))
         return self.students
+
+    def AllClass(self, classN):
+        list = []
+        for student in self.All():
+            if student.classN == classN:
+                list.append(student)
+        return list
 
 
 class TeacherSave(object):
@@ -162,6 +170,62 @@ class LimitGet():
 
     def MaxLessons(self):
         return self.limitFile["weekly"]
+
+
+class SaveSPS(object):
+
+    def __init__(self, subject, classN, level=None):
+        # -------#Limits get#-------#
+        with open(os.getcwd() + "/json/Limits/LessonLimit.json") as limit_file:
+            self.limitFile = json.load(limit_file)
+        # -------#Limits get#-------#
+        self.id = subject["ID"]
+        self.grade = classN
+        self.level = level
+        self.list = subject[str(self.grade)]
+        if self.level is not None:
+            self.list = self.list[self.level]
+        self.size = self.Size()
+        self.groups = self.GroupRange()
+
+    def Size(self):
+        return self.list.__len__()
+
+    def MaxGroup(self):
+        for x in range(self.limitFile["subjectSpecific"].__len__()):
+            if self.id == self.limitFile["subjectSpecific"][x]["ID"]:
+                return self.limitFile["subjectSpecific"][x]["max"]
+        return 30
+
+    def MinGroup(self):
+        for x in range(self.limitFile["subjectSpecific"].__len__()):
+            if self.id == self.limitFile["subjectSpecific"][x]["ID"]:
+                return self.limitFile["subjectSpecific"][x]["min"]
+        return 15
+
+    def GroupRange(self):
+        groupMin = int(self.size / self.MaxGroup())
+        groupMax = int(self.size / self.MinGroup())
+        return [groupMin, groupMax]
+
+
+class SPSGet(object):
+
+    def __init__(self, classN):
+        with open(os.getcwd() + "/json/StudentsPerSubject/StudentsPerSubject.json") as per_file:
+            self.sps = json.load(per_file)
+        self.classN = classN
+
+    def All(self):
+        SPSArray = []
+        for subject in self.sps["Per"]:
+            if self.classN <= 2:
+                SPSArray.append(SaveSPS(subject, self.classN))
+            else:
+                SPSArray.append(SaveSPS(subject, self.classN, "A"))
+                SPSArray.append(SaveSPS(subject, self.classN, "B"))
+        return SPSArray
+
 
 
 
