@@ -5,7 +5,7 @@ Algorithm:
 		✔ Create a way to get Hours for subject && class group  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
 		✔ Create a way to retrieve subject list of students  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
 		✔ Create counter for students who chose certain subject  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
-		☐ Create a way to retrieve a list for certain student 
+		☐ Create a way to retrieve a list for certain student
 		✔ Create a way to retrieve how many teachers are available each day for a certain subject  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
 	 	✔ Create a way to retrieve available teacher list for subject (Only checks default limitations)  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
 		✔ Create a way to retrieve the min/max of students for a subject  @done(2015-12-30 21:31) @project(Algorithm / Database (GET))
@@ -18,10 +18,10 @@ Database (SAVE):
 		✔ Change priority levels for subject  @done(2015-12-30 21:31) @project(Database (SAVE) / Create a way to change "Template.json")
 
 	Create a way to change "Students.json":
-		☐ Delete/Add Students 
-		☐ Delete/Add subjects from list 
-		☐ Change class/name 
-	
+		☐ Delete/Add Students
+		☐ Delete/Add subjects from list
+		☐ Change class/name
+
 	 Create a way to change "Teachers.json":
 
 	 Create a way to change "LessonLimit.json":
@@ -32,8 +32,16 @@ Database (SAVE):
 			✔ "Groups.json" structure  @done(2015-12-30 21:31) @project(Database (SAVE) / Algorithm (COMPUTING) / Structures)
 
 	Refine:
-			☐ Min groups for subject
-			☐ Max groups for subject
+			✔ Min groups for subject @done(2016-09-18 15:17)
+			✔ Max groups for subject @done(2016-09-18 15:17)
 
-TODO: <...> 
+TODO: <...>
 
+Needs before Algorithm work:
+	✔ Amount of teachers for subject/day @done(2016-09-18 19:10)
+	✔ Teacher Availability (static) @done(2016-09-18 15:18)
+	☐ Teacher Availability (dynamic)
+	✔ Students Per Subject @done(2016-09-18 15:18)
+	✔ Groups per subject && group sizes @done(2016-09-18 18:48)
+	✔ Premature Group forming (Comparing, weighing) @done(2016-09-18 18:57)
+	<That's it?>

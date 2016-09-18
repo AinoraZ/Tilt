@@ -1,80 +1,65 @@
 {
-  "Class":
-  {
-    "1":
-    [
+  "Class": {
+    "1": [
       {
-        "ID" : "A",
-        "students" : []
-      },
-      {
-        "ID" : "B",
-        "students" : []
+        "ID": "A",
+        "students": [
+          "Something2"
+        ]
       }
     ],
-    "2":
-    [
+    "2": [
       {
-        "ID" : "A",
-        "students" : []
-      },
-      {
-        "ID" : "B",
-        "students" : []
+        "ID": "A",
+        "students": [
+          "Something2",
+          "Something3"
+        ]
       }
     ],
-    "3":
-    [
+    "3": [
       {
-        "ID" : "A",
-        "students" : []
-      },
-      {
-        "ID" : "B",
-        "students" : []
+        "ID": "A",
+        "students": [
+          "Something2",
+          "Something3",
+          "Something4",
+          "Something5",
+          "Something6",
+          "Something7",
+          "Something8",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas",
+          "Ainoras Zukauskas"
+        ]
       }
     ],
-    "4":
-    [
+    "4": [
       {
-        "ID" : "A",
-        "students" : []
-      },
-      {
-        "ID" : "B",
-        "students" : []
+        "ID": "A",
+        "students": [
+          "Something2",
+          "Something3"
+        ]
       }
     ]
   },
-
-  "Group" :
-  {
-    "1":
-    [
+  "Group": {
+    "3": [
       {
-        "ID" : "1g",
-        "students" : []
+        "ID": "1",
+        "students": []
       }
     ],
-    "2":
-    [
+    "4": [
       {
-        "ID" : "1g",
-        "students" : []
-      }
-    ],
-    "3":
-    [
-      {
-        "ID" : "1g",
-        "students" : []
-      }
-    ],
-    "4":
-    [
-      {
-        "ID" : "1g",
-        "students" : []
+        "ID": "1",
+        "students": []
       }
     ]
   }

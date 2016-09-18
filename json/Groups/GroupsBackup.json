@@ -6,20 +6,12 @@
       {
         "ID" : "A",
         "students" : []
-      },
-      {
-        "ID" : "B",
-        "students" : []
       }
     ],
     "2":
     [
       {
         "ID" : "A",
-        "students" : []
-      },
-      {
-        "ID" : "B",
         "students" : []
       }
     ],
@@ -28,20 +20,12 @@
       {
         "ID" : "A",
         "students" : []
-      },
-      {
-        "ID" : "B",
-        "students" : []
       }
     ],
     "4":
     [
       {
         "ID" : "A",
-        "students" : []
-      },
-      {
-        "ID" : "B",
         "students" : []
       }
     ]
@@ -49,31 +33,17 @@
 
   "Group" :
   {
-    "1":
-    [
-      {
-        "ID" : "1g",
-        "students" : []
-      }
-    ],
-    "2":
-    [
-      {
-        "ID" : "1g",
-        "students" : []
-      }
-    ],
     "3":
     [
       {
-        "ID" : "1g",
+        "ID" : "1",
         "students" : []
       }
     ],
     "4":
     [
       {
-        "ID" : "1g",
+        "ID" : "1",
         "students" : []
       }
     ]

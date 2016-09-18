@@ -26,7 +26,7 @@
         }
       },
       "ID": "LT",
-      "Priority": "Stick"
+      "Type" : "Class"
     },
     {
       "Class": {
@@ -54,7 +54,7 @@
         }
       },
       "ID": "MAT",
-      "Priority": "Stick"
+      "Type" : "Class"
     },
     {
       "Class": {
@@ -82,7 +82,7 @@
         }
       },
       "ID": "GEF",
-      "Priority": "Separate"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -110,7 +110,7 @@
         }
       },
       "ID": "MUZ",
-      "Priority": "Sticky"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -138,7 +138,7 @@
         }
       },
       "ID": "IST",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -166,7 +166,7 @@
         }
       },
       "ID": "CHE",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -194,7 +194,7 @@
         }
       },
       "ID": "PROG",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -222,7 +222,7 @@
         }
       },
       "ID": "FIZ",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -250,7 +250,7 @@
         }
       },
       "ID": "EN",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -278,7 +278,7 @@
         }
       },
       "ID": "KUN",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -306,7 +306,7 @@
         }
       },
       "ID": "11",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -334,7 +334,7 @@
         }
       },
       "ID": "RUS",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -362,7 +362,7 @@
         }
       },
       "ID": "ETIK",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -390,7 +390,7 @@
         }
       },
       "ID": "BIO",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -418,7 +418,7 @@
         }
       },
       "ID": "FR",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -446,7 +446,7 @@
         }
       },
       "ID": "TIKI",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -474,7 +474,7 @@
         }
       },
       "ID": "PIL",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -502,7 +502,7 @@
         }
       },
       "ID": "SOK",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -530,7 +530,7 @@
         }
       },
       "ID": "DAIL",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -558,7 +558,7 @@
         }
       },
       "ID": "TECH",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -586,7 +586,7 @@
         }
       },
       "ID": "SAUG",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -614,7 +614,7 @@
         }
       },
       "ID": "22",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -642,7 +642,7 @@
         }
       },
       "ID": "23",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -670,7 +670,7 @@
         }
       },
       "ID": "24",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -698,7 +698,7 @@
         }
       },
       "ID": "25",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -726,7 +726,7 @@
         }
       },
       "ID": "26",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -754,7 +754,7 @@
         }
       },
       "ID": "27",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -782,7 +782,7 @@
         }
       },
       "ID": "28",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -810,7 +810,7 @@
         }
       },
       "ID": "29",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -838,7 +838,7 @@
         }
       },
       "ID": "30",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -866,7 +866,7 @@
         }
       },
       "ID": "31",
-      "Priority": "Must"
+      "Type" : "Group"
     },
     {
       "Class": {
@@ -894,7 +894,7 @@
         }
       },
       "ID": "32",
-      "Priority": "Must"
+      "Type" : "Group"
     }
   ]
 }

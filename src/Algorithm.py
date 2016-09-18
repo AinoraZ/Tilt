@@ -6,28 +6,21 @@ from progress.bar import Bar
 import numpy as np
 os.chdir('..')
 
-class Algorithm(object):
 
-    def __init__(self):
-        pass
-
-    def Calculate(self):
-        pass
-
-class GroupSize(object):
+class SPS(object):
     def __init__(self):
         self.per = 0
         self.perCopy = 0
-        self.LoadFile()
+        self.Load()
         self.subjectList = Open.GetSubject().Names()
 
-    def LoadFile(self):
+    def Load(self):
         with open(os.getcwd() + "/json/StudentsPerSubject/StudentsPerSubject.json") as per_file:
             self.per = json.load(per_file)
         with open(os.getcwd() + "/json/StudentsPerSubject/StudentsPerSubject.json") as per_file2:
             self.perCopy = json.load(per_file2)
 
-    def PerReset(self): #Resets to default backup json
+    def Reset(self):  # Resets to default backup json
         with open(os.getcwd() + "/json/StudentsPerSubject/StudentsPerSubjectBackup.json") as perBackup:
             self.perBackup = json.load(perBackup)
 
@@ -36,7 +29,7 @@ class GroupSize(object):
                 json.dumps(self.perBackup, sort_keys = True, indent = 4, separators = (',', ': '))
             )
 
-    def SPSTemplate(self): #Creates templates for every subject in /Subjects/Template.json
+    def Template(self):  # Creates templates for every subject in /Subjects/Template.json
         self.template = copy.copy(self.per["Per"][0])
         for x in range(self.subjectList.__len__()):
             if x < self.perCopy["Per"].__len__():
@@ -49,11 +42,11 @@ class GroupSize(object):
             json_data.write(
                 json.dumps(self.perCopy, sort_keys = True, indent = 4, separators = (',', ': '))
             )
-        self.LoadFile()
-        self.SPSCreate()
+        self.Load()
+        self.Create()
 
-    def SPSCreate(self): #Goes through every Student, and places their names in appropriate subjects
-                                         #Ex: LT has ["Ainoras Zukauskas", "Domantas Mauruca", ...]
+    def Create(self):  # Goes through every Student, and places their names in appropriate subjects
+        # Ex: LT has ["Ainoras Zukauskas", "Domantas Mauruca", ...]
         students = Open.GetStudent().All()
         bar = Bar('Creating SPS Json', max=students.__len__())
         for x in range(students.__len__()):
@@ -81,8 +74,14 @@ class GroupSize(object):
             )
         bar.finish()
 
-    def RandomizeClass(self):
-        studentSize = Open.GetStudent().AllClass(3).__len__()
+
+class RandClass(object):
+    def __init__(self):
+        self.Save()
+        self.groups = []
+
+    def Size(self, classN):    # Creates array of class sizes [28, 27, 27, ...] [min
+        studentSize = Open.GetStudent().AllClass(classN).__len__()
         devider = 30
         classAmount = studentSize / devider
         if not classAmount.is_integer():
@@ -103,27 +102,61 @@ class GroupSize(object):
             classArray = [studentSize]
         return list(classArray)
 
-    def SaveRandClass(self):
+    def Reset(self):
         with open(os.getcwd() + "/json/Groups/Groups.json") as groups:
-            self.groups = json.load(groups)
-        classes = self.RandomizeClass()
-        until = 97 + len(self.classes)
-        alphabet = list(map(chr, range(97, until)))
-        for i, alpha in enumerate(alphabet):
-            print(alpha, i)
+            groups = json.load(groups)
+            for x in range(1, 5):
+                groups["Class"][str(x)] = []
+            with open(os.getcwd() + "/json/Groups/Groups.json", 'w') as json_data:
+                json_data.write(
+                    json.dumps(groups, sort_keys = True, indent = 2, separators = (',', ': '))
+                )
 
+    def Save(self):    # Saves computer generated classes to Groups.json
+        # Open GroupsBackup.Json
+        with open(os.getcwd() + "/json/Groups/GroupsBackup.json") as groups:
+            self.groups = json.load(groups)
+        # Reset Classes in Group.json
+        self.Reset()
+        # Places classes
+        for x in range(1, 5):
+            classes = self.Size(x)  # Creates an array containing class sizes
+            until = 97 + len(classes)
+            alphabet = list(map(chr, range(97, until)))  # Creates alphabetical list for classes [a, b, c, ...]
+            template = copy.copy(self.groups["Class"][str(x)][0])  # Copies in a template from GroupsBackup.json
+            self.groups["Class"][str(x)] = []
+            getStudent = 0
+            students = Open.GetStudent().All()
+            for i, alpha in enumerate(alphabet):    # Works with the classes and places students in the templates
+                template["ID"] = alpha.upper()
+                for student in range(0, classes[i]):
+                    template["students"].append(students[getStudent].name)
+                    getStudent += 1
+                self.groups["Class"][str(x)].append(template)
+        # Saving
         with open(os.getcwd() + "/json/Groups/Groups.json", 'w') as json_data:
             json_data.write(
-                json.dumps(self.per, sort_keys = True, indent = 2, separators = (',', ': '))
+                json.dumps(self.groups, sort_keys = True, indent = 2, separators = (',', ': '))
             )
 
 
+class PrematureGen(object):
+
+    def __init__(self):
+        pass
+
+    def calculate(self):
+        pass
+
 
 print("Starting")
-GroupSize().PerReset()
+SPS().Reset()
 print("ResetDone")
-GroupSize().SPSTemplate()
+SPS().Template()
 print("Templating Done")
-print(Open.SPSGet(3).All()[0].groups)
-GroupSize().SaveRandClass()
+subjects = Open.SPSGet(3).All()
+print(subjects[2].groups)
+print(subjects[0].hours)
+RandClass()
+
 
